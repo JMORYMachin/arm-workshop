@@ -6,11 +6,11 @@
     "resources": [
         {
             "type": "Microsoft.Storage/storageAccounts",
-            "name": "YMTest",
+            "name": "YMTest31819",
             "apiVersion": "2015-06-15",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "YMTest"
+                "displayName": "YMTest31819"
             },
             "properties": {
                 "accountType": "Standard_LRS"
