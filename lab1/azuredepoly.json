@@ -2,7 +2,7 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "storageAccounPrefix": {
+        "storageAccountPrefix": {
             "type": "string",
             "defaultValue": "ymstg",
             "maxLength": 11,
@@ -24,7 +24,7 @@
         }
     },
     "variables": {
-        "storageAccount": "[toLower(concat(parameters('storageAccounPrefix'), uniqueString(resourceGroup().id )))]"
+        "storageAccount": "[toLower(concat(parameters('storageAccountPrefix'), uniqueString(resourceGroup().id )))]"
     },
     "resources": [
         {
