@@ -3,21 +3,21 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": "richeney"
+            "value": "jmorymachin"
         },
         "adminPassword": {
             "reference": {
                 "keyVault": {
-                    "id": "/subscriptions/2ca40be1-7e80-4f2b-92f7-06b2123a68cc/resourceGroups/keyVaults/providers/Microsoft.KeyVault/vaults/richeneyKeyVault"
+                    "id": "/subscriptions/8c3d59f9-1481-4dda-9b6f-263e5f412c7d/resourceGroups/bis-dev-usnc-keyvault-rg/providers/Microsoft.KeyVault/vaults/bis-dev-usnc-keyvault"
                 },
                 "secretName": "ubuntuDefaultPassword"
             }
         },
         "vnetName": {
-            "value": "ubuntuVnet"
+            "value": "zna1-bis-shr-vnet01"
         },
         "subnetName": {
-            "value": "ubuntuSubnet"
+            "value": "zna1-bis-shr-shared-subnet01"
         }
     }
 }
